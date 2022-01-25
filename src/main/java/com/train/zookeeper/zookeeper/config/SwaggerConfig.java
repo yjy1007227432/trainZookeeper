@@ -50,4 +50,16 @@ public class SwaggerConfig {
                 .build();
     }
 
+    /**
+     * InterProcessMutex
+     * https://blog.csdn.net/hosaos/article/details/89521537
+     * InterProcessMutex.acquire();
+     * //获取锁，若失败则阻塞等待直到成功，支持重入
+     * public void acquire() throws Exception
+     * //超时获取锁，超时失败
+     * public boolean acquire(long time, TimeUnit unit) throws Exception
+     * //释放锁
+     * public void release() throws Exception
+     */
+
 }
